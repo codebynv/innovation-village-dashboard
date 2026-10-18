@@ -1,12 +1,5 @@
 # Dashboard Metric Definitions
 
-For each displayed metric, document:
+For each displayed metric, document its business meaning, source fields, aggregation rule, time range and timezone, missing-data behavior, and refresh frequency.
 
-- its business meaning,
-- the source fields or records,
-- the aggregation rule,
-- the time range and timezone,
-- how missing data is treated,
-- how often the value refreshes.
-
-Keep labels and calculations consistent so users can interpret metrics correctly.
+Keep labels and calculations consistent so users can interpret the numbers correctly. Compare important totals against known sample records when validating changes.
