@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a dashboard improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User need
+    validations:
+      required: true
+  - type: textarea
+    id: metric
+    attributes:
+      label: Metric or workflow affected
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
